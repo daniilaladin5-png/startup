@@ -103,9 +103,13 @@
             <h2>Продукция</h2>
             <div class="products__list flex">
                 <div class="product">
-                    <img src="images/prod1.svg" alt="">
-                    <h3 class="product__text">Сигнализатор уровня</h3>
-                    <a href="#">Подробнее ></a>
+                    <div class="product__image">
+                        <img src="images/prod1.svg" alt="">
+                    </div>
+                    <div class="product__description">
+                        <p class="product__title">Сигнализатор уровня</p>
+                        <a href="#">Подробнее ></a>
+                    </div>
                 </div>
                 <div class="product">
                     <img src="images/prod2.svg" alt="">
@@ -147,9 +151,9 @@
         <div class="container">
             <h2>Новости</h2>
             <div class="news__list flex">
-                <div class="news__item">
+                <div class="news__item flex">
                     <img src="images/new1.svg" alt="">
-                    <div class="new__info">
+                    <div class="new__info flex">
                         <p class="new__heading">НПП «ПИОНЕР» подтвердило свои компетенции в области консультирования
                             и изготовления…
                         </p>
@@ -159,9 +163,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="news__item">
+                <div class="news__item flex">
                     <img src="images/new2.svg" alt="">
-                    <div class="new__info">
+                    <div class="new__info flex">
                         <p class="new__heading">Поздравляем коллектив регионального представительства «ПИОНЕР»
                             с праздником!
                         </p>
@@ -171,9 +175,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="news__item">
+                <div class="news__item flex">
                     <img src="images/new3.svg" alt="">
-                    <div class="new__info">
+                    <div class="new__info flex">
                         <p class="new__heading">Перенос сроков проведения запланированных работ в 2020 году
                         </p>
                         <div class="new__end flex">
@@ -186,33 +190,36 @@
         </div>
     </div>
     <footer>
-        <div class="topFooter flex">
-            <div class="container">
+        <div class="container">
+            <div class="topFooter flex">
                 <img src="images/logo2.svg" class="logo" alt="">
                 <div class="footerMenu flex">
-                    <div class="footerMenu__item">
-                        <a href="#">Главная</a><br><br>
-                        <a href="#">О предприятии</a><br><br>
-                        <a href="#">Новости</a><br><br>
-                        <a href="#">Продукция</a><br><br>
-                        <a href="#">Услуги</a><br><br>
+                    <div class="footerMenu__item flex">
+                        <a href="#">Главная</a>
+                        <a href="#">О предприятии</a>
+                        <a href="#">Новости</a>
+                        <a href="#">Продукция</a>
+                        <a href="#">Услуги</a>
                     </div>
-                    <div class="footerMenu__item">
-                        <a href="#">Поддержка</a><br><br>
-                        <a href="#">География поставок</a><br><br>
-                        <a href="#">Контакты</a><br><br>
+                    <div class="footerMenu__item flex">
+                        <a href="#">Поддержка</a>
+                        <a href="#">География поставок</a>
+                        <a href="#">Контакты</a>
                     </div>
-                    <div class="footerMenu__item">
-                        <a href="#">Файлы</a><br><br>
-                        <a href="#">Поддержка</a><br><br>
-                        <a href="#">Политика
-                            конфеденциальности</a><br><br>
+                    <div class="footerMenu__item flex">
+                        <a href="#">Файлы</a>
+                        <a href="#">Поддержка</a>
+                        <a href="#">Политика<br>
+                            конфеденциальности</a>
                     </div>
                 </div>
+
             </div>
-           
+            <div class="company">
+                <p>1994 — 2020 ООО «ПИОНЕР»</p>
+            </div>
         </div>
-        <p class="company">1994 — 2020 ООО «ПИОНЕР»</p>
+
     </footer>
 
 </body>
