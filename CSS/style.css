@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    max-width: 1180px;
+    max-width: 1220px;
     width: 100%;
     margin: 0 auto;
     padding-left: 20px;
@@ -82,22 +82,23 @@ body {
 .intro {
     margin-top: 80px;
 }
-
 .intro_title {
     font-size: 60px;
     font-weight: 700;
 }
-
 .intro__special {
     margin: 20px 100px;
+}
+.hero img{
+    max-width: 100%;
 }
 
 .about {
     margin-top: 80px;
-
 }
 
 .about__text {
+    margin-top: 32px;
     gap: 20px;
 }
 
@@ -119,8 +120,8 @@ body {
 
 .products__list {
     margin-top: 20px;
-    gap: 20px;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .product {
