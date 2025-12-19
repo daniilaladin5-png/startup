@@ -87,6 +87,9 @@ body {
 .mail__text {
     text-decoration-line: underline;
 }
+.hr{
+    margin-top: 32px;
+}
 
 .menu {
     justify-content: space-between;
