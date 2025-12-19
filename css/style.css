@@ -9,7 +9,8 @@
     src: url("../fonts/SourceSans3-Bold.woff2") format("woff2");
     font-weight: 700;
 }
-@font-face{
+
+@font-face {
     font-family: "Source Sans 3";
     src: url("../fonts/SourceSans3-SemiBold.woff2") format("woff2");
     font-weight: 600;
@@ -19,7 +20,8 @@
     font-family: 'Source Sans 3';
     font-weight: 700;
 }
-.semiBold{
+
+.semiBold {
     font-family: 'Source Sans 3';
     font-weight: 600;
 }
@@ -39,7 +41,6 @@ a {
 
 body {
     padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .container {
@@ -69,8 +70,11 @@ body {
 .header__tel {
     font-size: 14px;
     text-align: end;
+    max-height: 45px;
+    height: 100%;
 }
-.header__tel{
+
+.header__tel {
     margin-left: 20px;
     width: 180px;
 }
@@ -111,13 +115,17 @@ body {
     margin-top: 80px;
 }
 
+.intro__text {
+    gap: 100px;
+}
+
 .intro__title {
     font-size: 60px;
-    font-weight: 700;
 }
 
 .intro__special {
-    margin: 20px 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .hero img {
@@ -128,9 +136,11 @@ body {
 .about {
     margin-top: 80px;
 }
-.prode{
+
+.prode {
     font-size: 48px;
 }
+
 .about__text {
     margin-top: 32px;
     gap: 20px;
@@ -152,9 +162,11 @@ body {
 .products {
     margin-top: 80px;
 }
-.prode1{
+
+.prode1 {
     font-size: 48px;
 }
+
 .products__list {
     margin-top: 20px;
     flex-wrap: wrap;
@@ -185,17 +197,20 @@ body {
     flex-direction: column;
     gap: 12px;
 }
-.product__title{
+
+.product__title {
     font-size: 28px;
 }
-.more{
-    font-size:  20px;
+
+.more {
+    font-size: 20px;
 }
 
 .representations {
     margin-top: 80px;
 }
-.prode2{
+
+.prode2 {
     font-size: 48px;
 }
 
@@ -211,8 +226,8 @@ body {
 .news__item {
     flex-direction: column;
     gap: 16px;
-    width: 380px;
-    min-height: 478px;
+    max-width: 380px;
+    width: 100%;
     background-color: #F5F5F5;
 }
 
@@ -228,10 +243,9 @@ body {
 }
 
 .new__end {
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     justify-content: space-between;
-    bottom: 0;
-    margin-top: 81px;
 }
 
 .new__date {
